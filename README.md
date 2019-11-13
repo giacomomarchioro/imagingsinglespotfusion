@@ -1,4 +1,7 @@
-# A method for analyzing single-spot analysis referenced to spectral imaging and its application in the diagnostic of Cultural Heritage.
+# SPOLVERRO
+### A method for analyzing single-spot analysis referenced to spectral imaging and its application in the diagnostic of Cultural Heritage.
+
+**SPOLVERRO** (like [spolvero](https://it.wikipedia.org/wiki/Spolvero) but with two 'r') is a set of tools used for analyzing **S**pectral data with **P**CA **O**n pictorial **L**ayers represented as **V**ectors **E**xtracted from **R**asters images **R**eferenced **O**nsite.
 
 In this repository you can find some utilities and tutorial for analyzing data acquired with single-spot techniques referenced over spectral imaging cubes.
 
