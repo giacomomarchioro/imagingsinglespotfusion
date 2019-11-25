@@ -18,6 +18,8 @@ This can be done using:
 ```
 pip install git+https://github.com/giacomomarchioro/spolverro
 ```
+## Dependencies
+This module is based on rasterio, pyshp, numpy, matplotlib and scikitlearn.
 
 ## Basic usage of the module
 This basic example shows the functionality over the test data.
