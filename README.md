@@ -15,12 +15,14 @@ In the example folder an interactive Jupyter notebook shows how the idea is impl
 The functions shown in the notebook can be also run installing the Python module SPOLVERRO.
 This can be done using:
 
-  pip install git+https://github.com/giacomomarchioro/spolverro
+```
+pip install git+https://github.com/giacomomarchioro/spolverro
+```
 
 ## Basic usage of the module
-This is a basic example showing the functionality over the test data.
+This basic example shows the functionality over the test data.
 
-  """python
+  ```python
   from spolverro import dataset
   # We load the datasets
   g = dataset(raster_path = "./examples/testdata/testdata.tif",
@@ -50,7 +52,7 @@ This is a basic example showing the functionality over the test data.
   # Now we can compute the PCA on the fused datset we standardize the whole
   # dataset using scaling = True
   g.fused_dataset.plotPCA3D(scaling=True)
-  """
+  ```
 
 ### Test data
 The test data are portion of a data set collected during Hyperion project on a painting by Vittore Carpaccio (in alphabetical order) by Nicole De Manincor, Enrico Fiorin and Marco Raffaelli, and can not be published without consent.
