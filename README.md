@@ -39,7 +39,7 @@ This basic example shows the functionality over the test data.
   # components with index 0 and 1.
   g.shapefile.plotPCA(n_components=3,x_component=0,y_component=1)
   # We can do the same for the raster dataset
-  # We add manually the variable to the raster dataset
+  # We add manually the variable names to the raster dataset
   g.raster.variables_name = ["395 nm", "415 nm", "455 nm", "485 nm", "510 nm",
    "530 nm", "550 nm", "570 nm", "590 nm", "610 nm", "630 nm", "650 nm", "675 nm",
    "705 nm", "735 nm", "765 nm", "750 nm", "850 nm", "950 nm", "1050 nm",
@@ -55,4 +55,4 @@ This basic example shows the functionality over the test data.
   ```
 
 ### Test data
-The test data are portion of a data set collected during Hyperion project on a painting by Vittore Carpaccio (in alphabetical order) by Nicole De Manincor, Enrico Fiorin and Marco Raffaelli, and can not be published without consent.
+The test data are portion of a data set collected during [Hyperion project](http://www.iperionch.eu/) on a painting by Vittore Carpaccio (in alphabetical order) by Nicole De Manincor, Enrico Fiorin and Marco Raffaelli, and can not be published without consent.
