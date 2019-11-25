@@ -15,12 +15,14 @@ In the example folder an interactive Jupyter notebook shows how the idea is impl
 The functions shown in the notebook can be also run installing the Python module SPOLVERRO.
 This can be done using:
 
-  pip install git+https://github.com/giacomomarchioro/spolverro
+```
+pip install git+https://github.com/giacomomarchioro/spolverro
+```
 
 ## Basic usage of the module
-This is a basic example showing the functionality over the test data.
+This basic example shows the functionality over the test data.
 
-  """python
+  ```python
   from spolverro import dataset
   # We load the datasets
   g = dataset(raster_path = "./examples/testdata/testdata.tif",
@@ -37,7 +39,7 @@ This is a basic example showing the functionality over the test data.
   # components with index 0 and 1.
   g.shapefile.plotPCA(n_components=3,x_component=0,y_component=1)
   # We can do the same for the raster dataset
-  # We add manually the variable to the raster dataset
+  # We add manually the variable names to the raster dataset
   g.raster.variables_name = ["395 nm", "415 nm", "455 nm", "485 nm", "510 nm",
    "530 nm", "550 nm", "570 nm", "590 nm", "610 nm", "630 nm", "650 nm", "675 nm",
    "705 nm", "735 nm", "765 nm", "750 nm", "850 nm", "950 nm", "1050 nm",
@@ -50,7 +52,7 @@ This is a basic example showing the functionality over the test data.
   # Now we can compute the PCA on the fused datset we standardize the whole
   # dataset using scaling = True
   g.fused_dataset.plotPCA3D(scaling=True)
-  """
+  ```
 
 ### Test data
-The test data are portion of a data set collected during Hyperion project on a painting by Vittore Carpaccio (in alphabetical order) by Nicole De Manincor, Enrico Fiorin and Marco Raffaelli, and can not be published without consent.
+The test data are portion of a data set collected during [Hyperion project](http://www.iperionch.eu/) on a painting by Vittore Carpaccio (in alphabetical order) by Nicole De Manincor, Enrico Fiorin and Marco Raffaelli, and can not be published without consent.
