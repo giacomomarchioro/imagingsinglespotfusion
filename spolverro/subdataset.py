@@ -3,7 +3,7 @@
 """
 Created on Mon Nov 25 17:14:22 2019
 
-@author: giacomo
+@author: Giacomo Marchioro giacomo.marchioro@univr.it
 """
 
 from __future__ import print_function
